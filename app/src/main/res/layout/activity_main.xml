@@ -17,6 +17,7 @@
         android:layout_height="wrap_content"/>
 
     <EditText
+        android:id="@+id/empname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <TextView
@@ -26,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/empcod"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
@@ -35,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/des"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
@@ -44,6 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/cmpnm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
@@ -53,9 +57,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/plac"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
+        android:onClick="loginemp"
         android:text="SUBMIT"
         android:textSize="30px"
         android:textColor="#9F00BB"
